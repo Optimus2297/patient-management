@@ -1,0 +1,15 @@
+### Creates a new patient entity
+POST http://localhost:4000/api/v1/patients
+Content-Type: application/json
+
+
+{
+  "name": "John Doe Kafka Test1",
+  "email": "kafka_test123@example.com1",
+  "address": "123 main street221",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2014-11-28"
+
+}
+
+###
